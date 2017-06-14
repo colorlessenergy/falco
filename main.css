@@ -1,0 +1,31 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/falcobg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 80vh;
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 40%;
+}
+
+header nav ul, header nav p {
+  margin: 0 3%;
+}
